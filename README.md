@@ -37,7 +37,7 @@ Note: AWS user must have access to S3 bucket.
 
 **`awsS3Params`** - Specifies [AWS SDK's S3 constructor parameters](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property) used for the upload. Note that `AccessKeyId`, `secretAccessKey` and `params.Bucket` are required.
 
-**`executionResultsParams`** - Overwrites [Apify crawler execution results API call parameters](https://www.apify.com/docs/api-v1#/reference/results/execution-results/get-execution-results).
+**`executionResultsParams`** - Overwrites [Apify crawler execution results API call parameters](https://www.apify.com/docs/api/v2#/reference/results/execution-results/get-execution-results).
 
 **`itemsPerFile`** - Number of web pages to store per file in S3. By default it is 1000.
 
